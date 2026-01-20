@@ -87,6 +87,7 @@ if __name__ == "__main__":
 
     # 检测板载温度
     print("板载温度：", imu_gpio.Get_Board_Temp())
+    time.sleep(1)
 
     while True:
         ret = imu.Data_Update()
