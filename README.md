@@ -81,7 +81,7 @@ root@ubuntu:~/RDK_IMU_Module_us# gpio readall
 
 ### **2.2.sample执行**
 
-&emsp;`python3 test_pyimu.py`执行测试用例，终端将依次输出imu地址扫描结果和imu初始化结果，随后伴随蜂鸣器的响声，**RDK IMU Module**载板上的3个LED依次闪烁，然后终端输出板载温度，最后程序将会循环读取并打印IMU的6轴数据和时间戳、温度数据<br>
+&emsp;来到`RDK_IMU_Module_us/Py_RDK_IMU`目录下，`python3 test_pyimu.py`执行测试用例，终端将依次输出imu地址扫描结果和imu初始化结果，随后伴随蜂鸣器的响声，**RDK IMU Module**载板上的3个LED依次闪烁，然后终端输出板载温度，最后程序将会循环读取并打印IMU的6轴数据和时间戳、温度数据<br>
 
 ## **三、C-Samples快速体验**
 
